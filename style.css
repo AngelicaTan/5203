@@ -10,19 +10,16 @@
 	
 	Text colours
 	Channel (chat) not active: #8e9297
-	Channet (chat) active: 
+	Channet (chat) active: #3C3F45 my own
 	
 	--Discord Green: #3ba55d
 	
 	Discord Fonts pulled from F12 sourcing
 	--font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    
     --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter",
     "DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
-    
     --font-headline: Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    
     
     Integrated colours from Discord:
     Current page (shape active): #545861
@@ -36,8 +33,8 @@
     }
     
 	body {
-	padding-left: 11em;
-	padding-right: 15em;
+	padding-left: 1em;
+	padding-right: 30em;
 	color: #dcddde; /* Body Text color */
 	background-color: #2f3136; /* Background colour of entire page */
 	font-family: Arial;
@@ -49,15 +46,16 @@
     margin: 0;
 	position: absolute;
     top: 2em;
-    left: 0em;
-    width: 10em
+    right: 0;
+    width: 10em;
+    position: fixed;
     }
         
     ul.navbar li {
     background: #2f3136;
     margin: 0.5em 0;
     padding: 0em;
-    border-left: 0.5em solid #3C3F45; /* Colour for random square next to navigation bars */
+    border-right: 0.5em solid #3C3F45; /* Colour for random square next to navigation bars */
     }
     
     ul.navbar a {
