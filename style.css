@@ -7,6 +7,10 @@
 	--Background colours
 	For server bubbles: #202225
 	For channel navigation bar: #2f3136
+	Primary: #36393f
+	Secondary: #2f3136
+	Secondary-alt: #292b2f
+	Tertiary: #202225
 	
 	Text colours
 	Channel (chat) not active: #8e9297
@@ -36,6 +40,23 @@
 	right: 0;
 	bottom: 0;
 	position: fixed;
+	opacity: 0.5;
+	background-color: #2f3136;
+	}
+	
+	.clipartcredits:hover {
+	opacity: 1.0;
+	}
+	
+	.teammembers {
+	right: 0;
+	bottom: 10em;
+	opacity: 0.5;
+	position: fixed;
+	}
+    
+    .teammembers:hover {
+	opacity: 1.0;
 	}
 
     
@@ -92,6 +113,34 @@
 	li a:hover:not(.active) {
 	  background-color: #3A3C42; /* Defined hover colour close to discord as possible */
 	  color: #BDC5D9;
+	}
+	
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	  border-bottom: 1px dotted #202225;
+	}
+	
+	.tooltip .tooltiptext {
+	  font-size: small;
+	  visibility: hidden;
+	  background-color: #202225;
+	  color: #dcddde;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px 0;
+	  width: 120px;
+  	  bottom: 100%;
+  	  left: 50%;
+  	  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+	
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	}
+	
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
 	}
         
 /* Stylesheet */
