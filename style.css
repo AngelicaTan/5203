@@ -29,6 +29,12 @@
     Current page (shape active): #545861
     Other pages (shape blend with background): #202225 background colour of entire page
 	
+	For bottom positioned tooltip
+	width: 120px;
+  	top: 100%;
+  	left: 50%;
+  	margin-left: -60px; Use half of the width (120/2 = 60), to center the tooltip
+	
 	*/
 	
 
