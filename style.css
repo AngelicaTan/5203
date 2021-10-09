@@ -33,8 +33,10 @@
     }
     
 	body {
+	column-count: 2;
+	padding-top: 2em;
 	padding-left: 1em;
-	padding-right: 30em;
+	padding-right: 15em;
 	color: #dcddde; /* Body Text color */
 	background-color: #2f3136; /* Background colour of entire page */
 	font-family: Arial;
