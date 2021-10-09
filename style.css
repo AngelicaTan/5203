@@ -29,6 +29,25 @@
     Current page (shape active): #545861
     Other pages (shape blend with background): #202225 background colour of entire page
 	
+	
+	include or not include?
+	.teammembers {
+	right: 0;
+	bottom: 10em;
+	opacity: 0.5;
+	position: fixed;
+	}
+    
+    .teammembers:hover {
+	opacity: 1.0;
+	}
+
+	Include or not include?
+	<!-- Us in Discord form -->
+	<div class="teammembers">
+	<img src="angelica.PNG" style="width: 70px;" alt="This is Angelica">
+	</div>
+	
 	For bottom positioned tooltip
 	width: 120px;
   	top: 100%;
@@ -54,18 +73,6 @@
 	opacity: 1.0;
 	}
 	
-	.teammembers {
-	right: 0;
-	bottom: 10em;
-	opacity: 0.5;
-	position: fixed;
-	}
-    
-    .teammembers:hover {
-	opacity: 1.0;
-	}
-
-    
 	body {
 	column-count: 2;
 	padding-top: 2em;
