@@ -74,6 +74,7 @@
 	}
 	
 	body {
+	font-size: medium;
 	column-count: 2;
 	column-gap: 30px;
 	padding-top: 2em;
