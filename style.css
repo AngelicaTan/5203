@@ -59,7 +59,6 @@
 
 	.h1 {
     font-family: Helvetica; /* Title font style */
-    font-size: 10vw;
     }
     
     .clipartcredits {
@@ -75,7 +74,7 @@
 	}
 	
 	body {
-	font-size: 10vw;
+	font-size: small;
 	column-count: 2;
 	column-gap: 30px;
 	padding-top: 2em;
