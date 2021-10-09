@@ -75,12 +75,14 @@
 	
 	body {
 	column-count: 2;
+	column-gap: 30px;
 	padding-top: 2em;
 	padding-left: 1em;
 	padding-right: 15em;
 	color: #dcddde; /* Body Text color */
 	background-color: #2f3136; /* Background colour of entire page */
 	font-family: Arial;
+	/*text-align: justify;*/
 	}
     
 	ul.navbar {
