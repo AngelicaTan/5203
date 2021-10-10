@@ -92,7 +92,7 @@
     top: 2em;
     right: 0;
     width: 10em;
-    position: fixed;
+    position: absolute;
     }
         
     ul.navbar li {
@@ -133,7 +133,7 @@
 	.tooltip {
 	  position: relative;
 	  display: inline-block;
-	  border-bottom: 1px dotted #202225;
+	  border-bottom: 1px solid #EFEE52 /* 'Monero Yellow' */ /* or dashed lines? */
 	}
 	
 	.tooltip .tooltiptext {
@@ -157,5 +157,5 @@
 	.tooltip:hover .tooltiptext {
 	  visibility: visible;
 	}
-        
-/* Stylesheet */
+	        
+/* Stylesheet end */
