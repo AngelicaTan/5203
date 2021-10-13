@@ -87,14 +87,17 @@
     
 	ul.navbar {
     list-style-type: none;
+    font-family: Consolas;
+    font-size: 0.90em;
     padding: 0;
     margin: 0;
     top: 2em;
     right: 0;
-    width: 10em;
+    width: 11em;
     position: absolute;
     }
-        
+    
+            
     ul.navbar li {
     background: #2f3136;
     margin: 0.5em 0;
