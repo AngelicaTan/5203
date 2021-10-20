@@ -74,15 +74,16 @@
 	}
 	
 	body {
-	column-count: 2;
-	column-gap: 30px;
+	column-count: 3;
+	column-gap: 40px;
 	padding-top: 2em;
 	padding-left: 1em;
 	padding-right: 13em;
 	color: #dcddde; /* Body Text color */
 	background-color: #2f3136; /* Background colour of entire page */
 	font-family: Arial;
-	/*text-align: justify;*/
+	text-align: justify;
+	font-size: medium;
 	}
     
 	ul.navbar {
@@ -95,6 +96,7 @@
     right: 0;
     width: 11em;
     position: absolute;
+    text-align: left; 
     }
     
             
