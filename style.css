@@ -68,16 +68,19 @@
 	opacity: 0.5;
 	background-color: #2f3136;
 	}
+		
+	/* Attempt at hiding scrollbar, may not be working */
 	/* Hide scrollbar for Chrome, Safari and Opera */
-.example::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+	.example::-webkit-scrollbar {
+	    display: none;
+	}
+	
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.example {
+	  -ms-overflow-style: none;  /* IE and Edge */
+	  scrollbar-width: none;  /* Firefox */
+	}
+	
 	.clipartcredits:hover {
 	opacity: 1.0;
 	}
@@ -90,7 +93,7 @@
 	padding-right: 13em;
 	color: #dcddde; /* Body Text color */
 	background-color: #2f3136; /* Background colour of entire page */
-	font-family: Arial;
+	font-family: Garamond;
 	text-align: justify;
 	font-size: medium;
 	}
@@ -108,7 +111,6 @@
     text-align: left; 
     }
     
-            
     ul.navbar li {
     background: #2f3136;
     margin: 0.5em 0;
